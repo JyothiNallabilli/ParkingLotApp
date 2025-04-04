@@ -85,15 +85,3 @@ Parked at Floor 0, Slot 2
 Available Medium Slots on Floor 0: 0
 Unparked vehicle: KA05CD5678
 Available Medium Slots on Floor 0 after unparking: 1
-
-
-
-Class	            Role
-Vehicle	           Stores vehicle info
-SlotType	       Enum for slot size
-VehicleType	       Enum for vehicle type
-ParkingSlot	       Each spot on a floor
-Floor	           A list of slots
-Ticket	           Receipt with parking details
-ParkingLot	       Core logic: park, unpark, check
-Main	           Simulates the system with test data
